@@ -1,0 +1,45 @@
+
+
+p{
+    position: absolute;
+width: 434px;
+height: 82px;
+left: 30px;
+top: 70px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+ 
+
+color: #08072E;
+}
+.but{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 32px;
+
+position: absolute;
+width: 177px;
+height: 40px;
+left: 700px;
+top: 140px;;
+float: right;
+background: #3D50C7;
+border-radius: 10px;
+
+}
+.wel{
+    position: absolute;
+width: 922px;
+height: 256px;
+left: 259px;
+top: 124px;
+
+
+background: rgba(246, 233, 173, 0.7);
+border-radius: 10px;
+}

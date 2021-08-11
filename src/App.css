@@ -1,0 +1,93 @@
+.App {
+  font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+  text-align: center;
+}
+.home{
+  position: absolute;
+width: 117px;
+height: 39px;
+left: 65px;
+top: 150px;
+color:black
+}
+.left{
+  position: absolute;
+  width: 224px;
+  height: 1024px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #ADB8EB;
+opacity: 0.2;
+
+background: #C4C4C4;
+opacity: 1;
+}
+.Emp{
+  position: absolute;
+width: 105px;
+height: 39px;
+left: 65px;
+top: 250px;
+color:black
+}
+.fas-fa-align-justify{
+  position: absolute;
+width: 44px;
+height: 12px;
+left: 25px;
+top: 56px;
+
+border: 1px solid #666666;
+}
+.Pay{
+  position: absolute;
+width: 74px;
+height: 39px;
+left: 65px;
+top: 350px;
+color:black
+}
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
