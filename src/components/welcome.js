@@ -12,6 +12,7 @@ export default function welcome() {
           <h1 className='h'>Welcome Back!</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sit eget feugiat cras feugiat at pellentesque enim.</p>
         <button className='but'>Add Employee</button>
+      
         </div>
     )
 }

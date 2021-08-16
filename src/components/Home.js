@@ -12,18 +12,43 @@ import {
 
 export default function Employee() {
     return (
-        <div className="left">
-      <Router>
-        <Link className='home'>Home</Link>
+
+     
+        <div>
+          
+          
+       <Welcome />
+      <Search1 />
+       <div  className="left">
+        <Router>
+       <Link className='home'>Home</Link>
         <Link className='Emp'>Employee</Link>
         <Link className='Pay'> Payroll</Link>
-        
-        
-        </Router>
+       </Router>
        
-        <Welcome/>
-      
-      
-    </div>
+       </div>
+       <div className="right">
+       <div>
+        <button className="btnadd">Add Employee</button>
+        <button className="btntask">Add Task</button>    
+              </div>
+       
+       
+       </div>
+
+       <div class="card" style={{width: '18rem;'}}>
+  <img src="..." class="card-img-top" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick examp.</p>
+  </div>
+</div>
+
+
+     
+ </div>
+   
+
+
     )
 }

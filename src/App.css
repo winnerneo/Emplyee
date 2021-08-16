@@ -1,4 +1,5 @@
 .App {
+  width: 100%;
   font-family: Lato;
 font-style: normal;
 font-weight: normal;
@@ -16,7 +17,7 @@ color:black
 .left{
   position: absolute;
   width: 224px;
-  height: 1024px;
+  height: 100vh;
 left: 0px;
 top: 0px;
 border-radius: 0px;
@@ -29,6 +30,22 @@ bottom: 0%;
 background: #ADB8EB;
 opacity: 0.2;
 
+background: #C4C4C4;
+opacity: 1;
+}
+.right{
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+position: fixed;
+width: 243px;
+height: 100vh;
+left: 1125px;
+top: 0px;
+right: 0%;
+bottom: 0%;
+background: #ADB8EB;
+opacity: 0.2;
 background: #C4C4C4;
 opacity: 1;
 }
@@ -57,6 +74,25 @@ left: 65px;
 top: 350px;
 color:black
 }
+.btnadd {
+  width: 177px ;
+  height: 54px ;
+  top: 245px ;
+  margin-left: 35px ;
+  border: 2px solid #3D50C7;
+  border-radius: 10px ;
+  background-color: transparent ;
+}
+
+.btntask{
+  width: 177px ;
+  height: 54px ;
+  top: 245px ;
+  margin-top: 20px;
+  margin-left: 35px ;
+  border: 2px solid #3D50C7;
+  border-radius: 10px ;
+  background-color: transparent ;}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
