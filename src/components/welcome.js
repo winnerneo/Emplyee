@@ -9,8 +9,8 @@ import {
 export default function welcome() {
     return (
         <div className='wel'>
-          <h1 className='h'>Welcome Back!</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sit eget feugiat cras feugiat at pellentesque enim.</p>
+          <h1 className="hh">Welcome Back!</h1>
+          <p className="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam sit eget feugiat cras feugiat at pellentesque enim.</p>
         <button className='but'>Add Employee</button>
       
         </div>

@@ -1,129 +1,137 @@
 .App {
   width: 100%;
   font-family: Lato;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
   text-align: center;
 }
-.home{
+.home {
   position: absolute;
-width: 117px;
-height: 39px;
-left: 65px;
-top: 150px;
-color:black
+  width: 117px;
+  height: 39px;
+  left: 65px;
+  top: 150px;
+  color: black;
 }
-.left{
+.left {
   position: absolute;
-  width: 224px;
+  width: 11%;
   height: 100vh;
-left: 0px;
-top: 0px;
-border-radius: 0px;
+  left:0%;
+  top: 0%;
+  border-radius: 0px;
 
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
 
-background: #ADB8EB;
-opacity: 0.2;
-
-background: #C4C4C4;
-opacity: 1;
+  background: #eff1fb;
 }
-.right{
+.right {
   display: flex;
   justify-content: center;
-  align-items: center !important;
-position: fixed;
-width: 243px;
-height: 100vh;
-left: 1125px;
-top: 0px;
-right: 0%;
-bottom: 0%;
-background: #ADB8EB;
-opacity: 0.2;
-background: #C4C4C4;
-opacity: 1;
-}
-.Emp{
+  align-items: center;
   position: absolute;
-width: 105px;
-height: 39px;
-left: 65px;
-top: 250px;
-color:black
-}
-.fas-fa-align-justify{
-  position: absolute;
-width: 44px;
-height: 12px;
-left: 25px;
-top: 56px;
+  width: 11%;
+  height: 100vh;
+  left: 90%;
+  top: 0px;
+  right: 0%;
+  bottom: 0%;
+  background: #eff1fb;
 
-border: 1px solid #666666;
 }
-.Pay{
+.Emp {
   position: absolute;
-width: 74px;
-height: 39px;
-left: 65px;
-top: 350px;
-color:black
+  width: 105px;
+  height: 39px;
+  left: 65px;
+  top: 250px;
+  color: black;
+}
+.fas-fa-align-justify {
+  position: absolute;
+  width: 44px;
+  height: 12px;
+  left: 25px;
+  top: 56px;
+
+  border: 1px solid #666666;
+}
+.Pay {
+  position: absolute;
+  width: 74px;
+  height: 39px;
+  left: 65px;
+  top: 350px;
+  color: black;
 }
 .btnadd {
-  width: 177px ;
-  height: 54px ;
-  top: 245px ;
-  margin-left: 35px ;
-  border: 2px solid #3D50C7;
-  border-radius: 10px ;
-  background-color: transparent ;
+  width: 177px;
+  height: 54px;
+  top: 245px;
+  margin-left: 10%;
+  border: 2px solid #3d50c7;
+  border-radius: 10px;
+  background-color: transparent;
 }
 
-.btntask{
-  width: 177px ;
-  height: 54px ;
-  top: 245px ;
+.btntask {
+  width: 177px;
+  height: 54px;
+  top: 245px;
   margin-top: 20px;
-  margin-left: 35px ;
-  border: 2px solid #3D50C7;
-  border-radius: 10px ;
-  background-color: transparent ;}
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  margin-left: 35px;
+  border: 2px solid #3d50c7;
+  border-radius: 10px;
+  background-color: transparent;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.card{
+ flex-direction:row;
+  width: 60%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  margin-left: 15%;
+ display: flex;
+ justify-content: space-between;
+ border: none;
+ text-align: center;
+ margin-top: 20%;
+ height:70%;
   }
-  to {
-    transform: rotate(360deg);
+  .present{
+ color: #71D6D0;
+padding-top: 2%;
+ height: 128px;
+ width: 18%;
+ background-color:#FBFDFF;
+ box-shadow: 0px 4px 8px rgba(5, 7, 20, 0.1);
   }
-} */
+.absent{
+  color: #FF5959;
+  ;
+  padding-top: 2%;
+   height: 128px;
+   width: 18%;
+   background-color:#FBFDFF;
+   box-shadow: 0px 4px 8px rgba(5, 7, 20, 0.1);
+}
+.onLeave{
+  color: #FF5959;
+  ;
+  padding-top: 2%;
+   height: 128px;
+   width: 18%;
+   background-color:#FBFDFF;
+   box-shadow: 0px 4px 8px rgba(5, 7, 20, 0.1);
+}
+.totalEmployee{
+  color: #FF5959;
+  ;
+  padding-top: 2%;
+   height: 128px;
+   width: 18%;
+   background-color:#FBFDFF;
+   box-shadow: 0px 4px 8px rgba(5, 7, 20, 0.1);
+}
