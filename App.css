@@ -1,0 +1,156 @@
+.App {
+  width: 100%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+}
+
+.far{
+top: 10%;
+}
+.home {
+  position: absolute;
+  width: 117px;
+  height: 39px;
+  left: 65px;
+  top: 150px;
+  color: black;
+}
+.left {
+  position: absolute;
+  width: 11%;
+  height: 100%;
+  background: #eff1fb;
+  top:0%
+}
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 11%;
+  height: 150%;
+  left: 90%;
+  top: 0px;
+  
+  background: #eff1fb;
+
+}
+.Emp {
+  position: absolute;
+  width: 105px;
+  height: 39px;
+  left: 65px;
+  top: 250px;
+  color: black;
+}
+.fas-fa-align-justify {
+  position: absolute;
+  width: 44px;
+  height: 12px;
+  left: 25px;
+  top: 56px;
+
+  border: 1px solid #666666;
+}
+.Pay {
+  position: absolute;
+  width: 74px;
+  height: 39px;
+  left: 65px;
+  top: 350px;
+  color: black;
+}
+.btnadd {
+  width: 85%;
+  height: 100%;
+  padding:6% 6%;
+  margin-top: 50%; ;
+  margin-left: 10%;
+  border: 2px solid #3d50c7;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.btntask {
+  width: 85%;
+  height: 100%;
+  padding:5% 5%;
+  top: 245px;
+  margin-top: 20px;
+  
+  margin-left: 10%;
+  border: 2px solid #3d50c7;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.task{
+  width: 85%;
+  height: 100%;
+  padding:5% 5%;
+  margin-top:135%;
+  
+  margin-left: 10%;
+  border: 2px solid #3d50c7;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.taskB{
+  position: absolute;
+width: 203px;
+height: 302px;
+left: 1.5%;
+top: 661px;
+
+background: #e00f0f;
+border-radius: 10px;
+}
+.card{
+ flex-direction:row;
+  width: 73%;
+  /* align-items: center; */
+  margin-left: 15%;
+ /* display: flex; */
+ justify-content: space-between;
+ border: none;
+ text-align: center;
+ margin-top: 23%;
+ height:70%;
+  }
+  .present{
+ color: #71D6D0;
+padding-top: 2%;
+ height: 128px;
+ width: 18%;
+ background-color:#FBFDFF;
+ box-shadow: 0px 4px 8px rgba(5, 7, 20, 0.1);
+  }
+.absent{
+  color: #FF5959;
+  ;
+  padding-top: 2%;
+   height: 128px;
+   width: 18%;
+   background-color:#FBFDFF;
+   box-shadow: 0px 4px 8px rgba(5, 7, 20, 0.1);
+}
+.onLeave{
+  color:orangered;
+  ;
+  padding-top: 2%;
+   height: 128px;
+   width: 18%;
+   background-color:#FBFDFF;
+   box-shadow: 0px 4px 8px rgba(5, 7, 20, 0.1);
+}
+.totalEmployee{
+  color: purple;
+  ;
+  padding-top: 2%;
+   height: 128px;
+   width: 18%;
+   background-color:#FBFDFF;
+   box-shadow: 0px 4px 8px rgba(5, 7, 20, 0.1);
+}
